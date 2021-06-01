@@ -1,0 +1,13 @@
+http://ergast.com/mrd/
+strains.evanbusse.com
+https://lyricsovh.docs.apiary.io/#reference/0/lyrics-of-a-song/search?console=1
+http://www.icndb.com/api/
+https://www.boredapi.com/
+https://www.coingecko.com/en/api#explore-api
+
+
+id: bitcoin
+symbol: btc
+
+id: ethereum
+symbol: eth

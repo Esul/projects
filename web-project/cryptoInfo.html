@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crypto Info</title>
+    <script type="module" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
+        integrity="sha512-UDJtJXfzfsiPPgnI5S1000FPLBHMhvzAMX15I+qG2E2OAzC9P1JzUwJOfnypXiOH7MRPaqzhPbBGDNNj7zBfoA=="
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="utf-8">
+</head>
+
+<body onload="build()">
+
+    <div class="navigationbar">
+        <nav>
+            <div class="navBut" id="homeB" onclick="home()">
+                <h4><a href="./index.html" style="text-decoration: none; color: black;">Home</a></h4>
+            </div>
+            <input id="searchBox" type="text" placeholder="Search Crypto" onkeyup="search()"
+                onblur="hideSearch('blur')">
+
+        </nav>
+    </div>
+    </div>
+    <div class="results" id="searchBackground">
+        <ul id="searchResults">
+        </ul>
+    </div>
+    <div id="cryptoFullInfo" class="wholeInfo">
+        <h1 id="headerCrypto"><img id="cryptoThumb" width="40px" height="40px"></h1>
+        <div id="chart_div0" style="z-index: 0;margin-left: 10%; display: inline-block; width: 40%; height: 250px;">
+        </div>
+        <div id="chart_div1" style="z-index: 1;
+        display: inline-block; width: 40%; height: 250px;"></div>
+        <div style="margin-top: 50px;">
+            <div class="percentageChange" id="dayChange">24 Hours: </div>
+            <div class="percentageChange" id="weekChange">7 Days: </div>
+        </div>
+        <div id="cryptoDescription" style="margin-top: 50px;"></div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footerContainer">
+            <img src="./icons/coingecko.webp" alt="coin gecko logo" style="vertical-align: middle;" width="50px"
+                height="50px"> <a href="https://www.coingecko.com/en" target="_blank">Powered By CoinGecko</a>
+        </div>
+    </div>
+
+</body>
+
+<script type="text/javascript" src="script/script.js"></script>
+<script type="text/javascript" src="script/buildInfoPage.js"></script>
+
+
+</html>

@@ -1,0 +1,16 @@
+move commands
+
+4 dungeons
+  check if dungeons have been already cleared (True or False statement)
+
+at least one HP fight
+
+ბოსთან ჩხუბი:
+  აქვს n- სიცოცხლე
+  გისვამს კითხვას, თუ გაეცი აკლდება 1
+  თუ ვერ გაეცი ემატება 1
+  შეიძლება იყოს ტესტური
+  დრო გეძლევა საპასუხოდ
+  ამოწურვა = არასწორი პასუხი, +1 სიცოცხლე
+
+ჯერ დაუწერელ ოთახში რამენაირი ჩხუბი, მოიფიქრე

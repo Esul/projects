@@ -1,0 +1,149 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #ffffff;
+}
+
+.navigationbar {
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #dfdede;
+}
+
+nav {
+  margin-left: 20%;
+  height: 70px;
+}
+
+.navBut {
+  display: inline-block;
+  padding-right: 17px;
+  padding-left: 14px;
+  padding-top: 3px;
+  cursor: pointer;
+}
+.navBut:hover {
+  background-color: #eeeded;
+}
+
+#searchBox {
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  right: 20%;
+  top: 15px;
+}
+
+.results {
+  display: none;
+  position: absolute;
+  background-color: #dfdede;
+  box-shadow: 0 8px 6px -6px black;
+  height: 300px;
+  width: 218px;
+  right: 20%;
+  top: 57px;
+  z-index: 3;
+}
+
+#searchResults {
+  padding-left: 10px;
+  list-style-type: none;
+  overflow: scroll;
+  height: 300px;
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+#searchResults > li {
+  border-bottom: 1px solid #979797;
+  width: 80%;
+  padding: 7px 0;
+  cursor: pointer;
+}
+#searchResults > li:hover {
+  background-color: honeydew;
+}
+
+.cryptoTable {
+  width: 60%;
+  margin: 70px auto;
+  background-color: #f3f3f3;
+  box-shadow: 10px 5px 5px #bdbdbd;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+caption {
+  text-shadow: 1px 1px 2px #7a7a7a;
+  padding: 5px;
+  border-bottom: 1px solid #b4b4b4;
+}
+
+th {
+  padding: 13px;
+  cursor: pointer;
+}
+
+td {
+  padding: 23px;
+  margin: 3px;
+  border-top: 1px solid #b4b4b4;
+}
+
+.icon {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* cryptoInfo.html */
+.wholeInfo {
+  display: block;
+  width: 60%;
+  margin: 150px auto;
+  padding: 15px;
+  height: max-content;
+  background-color: rgb(238, 238, 238);
+  border-radius: 40px;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+/* ----------- CRYPTOINFOPAGE ------------ */
+
+#cryptoThumb {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#headerCrypto {
+  text-align: center;
+  padding: 10px;
+}
+
+.percentageChange {
+  display: inline-block;
+  margin-left: 20%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: max-content; /* Height of the footer */
+  padding: 10px;
+  background: #6cf;
+}
+
+.footerContainer {
+  float: right;
+  padding-right: 35px;
+}
+
+.footerContainer > a {
+  text-decoration: inherit;
+  color: black;
+}

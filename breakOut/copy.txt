@@ -1,0 +1,12 @@
+for j in range(3):
+    for i in range(7):
+        brick = Brick(COLOR_LIST[j], 80, 30)
+        brick.rect.x = 60 + i*100
+        if j == 1:
+            brick.rect.y = 60
+        elif j == 2:
+            brick.rect.y = 100
+        elif j ==3:
+            brick.rect.y = 140
+        all_sprites_list.add(brick)
+        all_bricks.add(brick)
